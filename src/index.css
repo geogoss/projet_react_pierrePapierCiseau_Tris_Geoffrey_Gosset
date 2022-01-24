@@ -1,0 +1,40 @@
+*, ::after, ::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  height: 100vh;
+  background-color: rgba(28,47,79,255);
+}
+
+.cadreJeu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  /* margin-top: 100px; */
+  width: 60%;
+  height: 550px;
+}
+
+.App{
+  height: 100vh;
+}
+
+.btnModal{
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  padding: 10px 25px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+
+
