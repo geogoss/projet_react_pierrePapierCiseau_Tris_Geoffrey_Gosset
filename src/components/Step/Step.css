@@ -1,0 +1,84 @@
+
+/* Les icones du joueurs */
+.choixStep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+.paperStep{
+    border: 20px solid #5671F5;
+}
+.scissorsStep{
+    border: 20px solid #ECA724;
+}
+.rockStep{
+    border: 20px solid #DF405E;
+}
+
+/* Définition du rond Noir qui prend la place du choix ordi le temps qu'il arrive */
+.rondNoir{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+
+/* Definition du cadre de step */
+.cadreStep{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.jeu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.jeu p{
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+/* la div resultat qui indique le resultat et affiche le bouton play again */
+
+.resultat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resultat span{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.resultat button{
+    background-color: white;
+    border-radius: 10px;
+    color: red;
+    padding: 10px 40px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+

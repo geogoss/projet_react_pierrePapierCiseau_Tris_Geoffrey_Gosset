@@ -3,7 +3,20 @@ import "./Jeu.css"
 
 export default function Jeu(props) {
   return (
-        <div className= {props.class} >
+        <div onClick={ () => {
+
+            props.jePasseAuStep()
+            props.stockNombre()
+            props.random()
+            setTimeout(() => {
+                props.choixOrdi()
+                
+            }, 1000);
+
+
+        }}
+        
+        className= {props.class} >
             {props.img}
         </div>
     );

@@ -22,7 +22,7 @@
 }
 
 .score{
-    width: 20%;
+    width: 40%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -35,13 +35,24 @@
 .score p:first-child{
     color: blue;
     font-size: 15px;
-    margin: 15px;
     letter-spacing: 2px;
 }
+
 .score p:nth-child(2){
+    color: blue;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.score p:nth-child(3){
     font-size: 60px;
     color: rgba(86,85,103,255);
     font-weight: bold;
 }
 
-
+.topScore{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
